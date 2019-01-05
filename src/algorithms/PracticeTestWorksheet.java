@@ -16,12 +16,12 @@ int height = Integer.parseInt(up);
    if (height<i) {
 	JOptionPane.showMessageDialog(null, "You need to eat your wheaties." );
 }
-for (int j = 1; j < 11; j++) {
+for (int j = 1; j < 10; j++) {
 	System.out.println(j*3);
 }
 
 Random youtuberewind = new Random();
-int 	defaultdance = youtuberewind.nextInt(20);
+int defaultdance = youtuberewind.nextInt(20);
 System.out.println(defaultdance);
 
 Random roblox = new Random();
