@@ -28,11 +28,14 @@ if (pewdiepie<=2) {
 	// 3. If it is greater than or equal to 3 AND less than or equal to 5, tell them
 	// they're a Code Ninja
 else if (pewdiepie>=3 && pewdiepie<=5) {
-	
+	JOptionPane.showMessageDialog(null, "You are a code ninja.");
 }
 	
 
 // 4. If it is more than 5, call the method below to play the Batman theme song.
+else if (pewdiepie>5) {
+	playBatmanTheme();
+}
 }
 
 
